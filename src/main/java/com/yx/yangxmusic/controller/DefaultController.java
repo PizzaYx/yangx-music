@@ -1,4 +1,4 @@
-package com.bilitech.yilimusic.controller;
+package com.yx.yangxmusic.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
