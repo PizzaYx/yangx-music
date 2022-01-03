@@ -1,14 +1,13 @@
-package com.bilitech.yilimusic;
+package com.yx.yxmusic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 @SpringBootApplication
-public class YiliMusicApplication {
+public class YxMusicApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YiliMusicApplication.class, args);
+        SpringApplication.run(YxMusicApplication.class, args);
     }
 
 }
