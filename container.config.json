@@ -8,8 +8,8 @@
   "policyThreshold": 60,
   "envParams": {},
   "customLogs": "stdout",
-  "dataBaseName":"yx-music",
+  "dataBaseName":"yangx-music",
   "executeSQLs":[
-    "CREATE DATABASE IF NOT EXISTS yx-music;"
+    "CREATE DATABASE IF NOT EXISTS yangx-music;"
   ]
 }
