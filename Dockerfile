@@ -20,7 +20,7 @@ FROM alpine:3.13
 ENV MYSQL_HOST 10.0.224.15
 ENV MYSQL_USER_NAME music
 ENV MYSQL_PASSWORD Music2021
-ENV DATABASE_NAME yili-music
+ENV DATABASE_NAME yx-music
 
 # 安装依赖包，如需其他依赖包，请到alpine依赖包管理(https://pkgs.alpinelinux.org/packages?name=php8*imagick*&branch=v3.13)查找。
 RUN apk add --update --no-cache openjdk8-jre-base \
@@ -30,10 +30,10 @@ RUN apk add --update --no-cache openjdk8-jre-base \
 WORKDIR /app
 
 # 将构建产物jar包拷贝到运行时目录中
-COPY --from=build /app/target/yili-music-0.0.1.jar .
+COPY --from=build /app/target/yx-music-0.0.1.jar .
 
 # 暴露端口
 EXPOSE 80
 
 # 执行启动命令
-CMD ["java", "-jar", "/app/yili-music-0.0.1.jar"]
+CMD ["java", "-jar", "/app/yx-music-0.0.1.jar"]
