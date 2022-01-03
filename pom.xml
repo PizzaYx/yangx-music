@@ -8,11 +8,11 @@
         <version>2.6.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.bili-tech</groupId>
-    <artifactId>yili-music</artifactId>
+    <groupId>com.yx</groupId>
+    <artifactId>yx-music</artifactId>
     <version>0.0.1</version>
-    <name>yili-music</name>
-    <description>yili-music</description>
+    <name>yx-music</name>
+    <description>yx-music</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
